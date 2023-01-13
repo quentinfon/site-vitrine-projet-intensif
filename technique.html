@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ubanext</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="icon" href="./images/favincon.svg" />
+    <script src="/js/app-page.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div class="columns is-multiline"></div>
+      <nav class="navbar py-4">
+        <div class="container is-fluid">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <img class="image" src="./images/logo.svg" alt="" width="96px" />
+            </a>
+            <a
+              class="navbar-burger"
+              role="button"
+              aria-label="menu"
+              aria-expanded="false"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="analyse.html">Analyse</a>
+              <a class="navbar-item" href="">
+                <b class="has-text-primary">Technique</b>
+              </a>
+            </div>
+
+            <div class="navbar-end">
+              <a
+                class="navbar-item"
+                href="https://github.com/quentinfon/site-vitrine-projet-intensif"
+              >
+                <img class="image" src="./images/github.svg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="columns is-multiline">
+            <div class="column is-6">
+              <div class="category">
+                <h1 class="title is-5">Logiciel de rendu 3D</h1>
+                <hr />
+                <ul>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Modeliser en 3D un immeuble avec des containers
+                  </li>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Placer sur une carte 3D l'immeuble
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="category">
+                <h1 class="title is-5">Application Urbanext Gestion</h1>
+                <hr />
+                <ul>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Gestion de reservation de voitures
+                  </li>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Gestion de la laverie
+                  </li>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Tableau de bord de la consommation
+                  </li>
+                  <li>
+                    <i class="fas fa-caret-right fa-xs icon-padding-right"></i>
+                    Gestion des emprunt d'objets
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="content block">
+            <section class="section pl-0 pr-0">
+              <div class="columns mb-0">
+                <h2 class="column">Logiciel de rendu 3D</h2>
+                <a
+                  class="column is-1"
+                  href="https://github.com/JasmineCA/Urbanext3D"
+                >
+                  <img class="image" src="./images/github.svg" />
+                </a>
+              </div>
+
+              <hr class="m-0 mb-2" />
+
+              <span class="tag is-black">Unity</span>
+              <span class="tag is-link">C#</span>
+
+              <h3>Pré-requis</h3>
+              <ul>
+                <li>Unity v2021.3.16F1</li>
+              </ul>
+
+              <h3>Installation</h3>
+              <ul>
+                <li>Ouvrir le projet dans Unity</li>
+                <li>Exécuter le projet dans Unity</li>
+              </ul>
+
+              <h3>Description</h3>
+              <p>
+                Le logiciel de rendu 3D Urbanext permet de créer les conteneurs,
+                de les assembler et ensuite de les placer dynamiquement dans le
+                quartier afin de les visualiser. Il sera même possible
+                d’imprimer votre prototype en 3D. Notre prototype contient
+                actuellement un module pour créer les conteneurs et les agencer,
+                ainsi qu’une visualisation d’une carte en 3D importée.
+              </p>
+            </section>
+
+            <section class="section pl-0 pr-0">
+              <div class="columns mb-0">
+                <h2 class="column">Application Urbanext Gestion</h2>
+                <a class="column is-1">
+                  <img class="image" src="./images/github.svg" />
+                </a>
+              </div>
+
+              <hr class="m-0 mb-2" />
+
+              <span class="tag is-success">Vue</span>
+              <span class="tag is-info">TypeScript</span>
+
+              <h3>Pré-requis</h3>
+              <ul>
+                <li>Node.js v16.0+</li>
+              </ul>
+
+              <h3>Installation</h3>
+              <ul>
+                <li>Ouvrir un terminal à la racine du projet</li>
+                <li><code>npm i</code></li>
+                <li><code>npm run dev</code></li>
+              </ul>
+
+              <h3>Description</h3>
+              <p>
+                L’application Urbanext Gestion permet de gérer tous les services
+                liés à l’immeuble et permet d’avoir également un tableau de bord
+                sur la consommation actuelle de l’immeuble. Notre logiciel
+                actuel permet de gérer la plateforme d’autopartage, notamment en
+                gérant les réservations des voitures. Il est également possible
+                de voir la consommation de nos trajets. Il est également
+                possible d’accéder au service de réservation de laverie et au
+                service d’emprunt d’objets.
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
